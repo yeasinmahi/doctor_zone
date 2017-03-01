@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                
+                android:text="About Doctor"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorNameView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvQualification"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Qualification "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorQualificationView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvDesignation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Designation "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorDesignationView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvExpertise"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Expertise "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#E5E5E5"/>
+
+                <TextView
+                    android:id="@+id/doctorExpertiseView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvChamber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chamber "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorChamberView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tvChamberAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chamber Location "
+                    android:textSize="15sp"
+                   android:textStyle="bold"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorChamberLocationView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvVisitingHours"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Visiting Hours "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorVisitingHourView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tvOffDays"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Off Day "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#E5E5E5" />
+
+                <TextView
+                    android:id="@+id/doctorOffDayView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic"
+                    android:text="" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Appoinment" 
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:onClick="Appoinment"/>
+             <Button
+                android:id="@+id/btnMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="See On Map" 
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                />
+            
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

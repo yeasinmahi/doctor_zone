@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doctor Zone</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome to Doctor Zone</string>
+    <string name="tap">* Tap to Start</string>
+    <string name="selectHospital">Select Hospital</string>
+    <string name="expertise_list">Select Expertise</string>
+    <string name="doctor_name">Enter Dr. Name</string>
+    <string name="doctor_list">Doctor List</string>
+    <string name="search">Search</string>
+    <string name="logo">Logo</string>
+    <string name="searchDoctor">Search Doctor</string>
+    <string name="_data_data_">/data/data/</string>
+
+</resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\DevFolder\\Android\\DoctorZone\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
+        "source": "E:\\DevFolder\\Android\\DoctorZone\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "E:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_row_view.xml",
+        "source": "E:\\DevFolder\\Android\\DoctorZone\\app\\src\\main\\res\\layout\\custom_row_view.xml"
+    },
+    {
+        "merged": "E:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\res\\merged\\debug\\layout\\doctor_list.xml",
+        "source": "E:\\DevFolder\\Android\\DoctorZone\\app\\src\\main\\res\\layout\\doctor_list.xml"
+    },
+    {
+        "merged": "E:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_layout.xml",
+        "source": "E:\\DevFolder\\Android\\DoctorZone\\app\\src\\main\\res\\layout\\about_layout.xml"
+    }
+]
