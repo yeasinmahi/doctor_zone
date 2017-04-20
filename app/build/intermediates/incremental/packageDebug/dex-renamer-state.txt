@@ -1,7 +1,4 @@
-#Mon Feb 27 18:54:01 BDT 2017
-base.0=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_231e7ca297cd474115203f3beacce700f4ce466b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a96f0795efca6b213cfd1fcfe149fb49a2ff710\\classes.dex
-base.1=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a96f0795efca6b213cfd1fcfe149fb49a2ff710
-file.0=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_231e7ca297cd474115203f3beacce700f4ce466b\\classes.dex
+#Thu Apr 20 18:11:02 BDT 2017
+base.0=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\DevFolder\\Android\\DoctorZone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

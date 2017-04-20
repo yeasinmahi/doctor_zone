@@ -17,7 +17,7 @@ ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:2:1-
 		ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:20.0.0] E:\DevFolder\Android\DoctorZone\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Arafat\.android\build-cache\3f7fa6fc57f745bc99629c286e02eea8441a2cac\output\AndroidManifest.xml:16:5-42
 	android:targetSdkVersion
 		ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml
@@ -32,7 +32,7 @@ ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:10:5
 		ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:10:22-66
 application
 ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:12:5-30:19
-MERGED from [com.android.support:support-v4:20.0.0] E:\DevFolder\Android\DoctorZone\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Arafat\.android\build-cache\3f7fa6fc57f745bc99629c286e02eea8441a2cac\output\AndroidManifest.xml:17:5-19
 	android:label
 		ADDED from E:\DevFolder\Android\DoctorZone\app\src\main\AndroidManifest.xml:15:9-41
 	android:allowBackup
