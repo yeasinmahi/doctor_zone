@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.sa221.doctorzone"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 22
     }
 
