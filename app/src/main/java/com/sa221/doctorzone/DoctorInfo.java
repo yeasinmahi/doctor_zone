@@ -11,6 +11,8 @@ public class DoctorInfo {
 	private String visitingHour;
 	private String offDay;
 	private String mobile;
+	private double lat;
+	private double lang;
 	public int getDoctorId() {
 		return doctorId;
 	}
@@ -23,10 +25,10 @@ public class DoctorInfo {
 	public void setDoctorName(String doctorName) {
 		this.doctorName = doctorName;
 	}
-	public String getQulification() {
+	public String getQualification() {
 		return qualification;
 	}
-	public void setQulification(String qulification) {
+	public void setQualification(String qulification) {
 		this.qualification = qulification;
 	}
 	public String getDesignation() {
@@ -71,4 +73,8 @@ public class DoctorInfo {
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
+	public Double getLat(){return lat; }
+	public void setLat(Double lat){this.lat = lat; }
+	public Double getLang(){return lang;}
+	public void setLang(Double lang){this.lang=lang;}
 }

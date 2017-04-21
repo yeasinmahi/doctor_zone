@@ -235,7 +235,7 @@
                 android:text="Appoinment" 
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button"
-                android:onClick="Appoinment"/>
+                android:onClick="appointment"/>
              <Button
                 android:id="@+id/btnMap"
                 android:layout_width="match_parent"
@@ -245,6 +245,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button"
+                 android:onClick="seeOnMap"
                 />
             
         </LinearLayout>

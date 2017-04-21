@@ -121,7 +121,7 @@ public class DbHelper extends SQLiteOpenHelper {
 	public DoctorInfo getAllDoctorInfo(int did) {
 		final String sql="select i.dname,i.mobile," +
 				"i.qualification,i.designation,h.dhospital" +
-				",h.hlocation,c.dspecial,s.visitingHour,s.offDay" +
+				",h.hlocation,h.lat, h.lang,c.dspecial,s.visitingHour,s.offDay" +
 				" from dinfo as i join dhospital as h on i.hid=h.hid " +
 				"join dspecial as c on i.cid=c.cid join shedule as s " +
 				"on i.sid=s.sid where i.did="+did;
@@ -149,6 +149,10 @@ public class DbHelper extends SQLiteOpenHelper {
 						.getColumnIndex("offDay"));
 				String mobile = cursor.getString(cursor
 						.getColumnIndex("mobile"));
+				Double lat = cursor.getDouble(cursor
+						.getColumnIndex("lat"));
+				double lang = cursor.getDouble(cursor
+						.getColumnIndex("lang"));
 				
 				doctorInfo.setDoctorId(did);
 				doctorInfo.setDoctorName(doctorName);
@@ -158,8 +162,10 @@ public class DbHelper extends SQLiteOpenHelper {
 				doctorInfo.setExperise(experise);
 				doctorInfo.setMobile(mobile);
 				doctorInfo.setOffDay(offDay);
-				doctorInfo.setQulification(qualification);
+				doctorInfo.setQualification(qualification);
 				doctorInfo.setVisitingHour(visitingHour);
+				doctorInfo.setLat(lat);
+				doctorInfo.setLang(lang);
 			}
 		}
 		if (cursor != null) {
