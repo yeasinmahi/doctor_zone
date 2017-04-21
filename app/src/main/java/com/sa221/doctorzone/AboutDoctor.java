@@ -5,8 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AboutDoctor extends Activity {
 	TextView doctorName, doctorQualification, doctorExpertise, doctorChamber, doctorChamberLocation, doctorDesignation, doctorVisitingHours, doctorOffDay;
@@ -57,5 +59,18 @@ public class AboutDoctor extends Activity {
 		intent.putExtra("lat",doctorInfo.getLat());
 		intent.putExtra("lang",doctorInfo.getLang());
 		startActivity(intent);
+	}
+	public void sentSms(View view){
+		Utility.getPermission(this,new String[]{Manifest.permission.SEND_SMS});
+		if(Utility.checkPermission(this,Manifest.permission.SEND_SMS)){
+			Toast.makeText(this,"You have no permisson to sent sms",Toast.LENGTH_SHORT).show();
+			return;
+		}
+		Intent sendIntent = new Intent(Intent.ACTION_VIEW);
+		sendIntent.putExtra("address", doctorInfo.getMobile());
+		sendIntent.setType("vnd.android-dir/mms-sms");
+		startActivity(sendIntent);
+		/*SmsManager smsManager = SmsManager.getDefault();
+		smsManager.sendTextMessage(doctorInfo.getMobile(), null, "sms message", null, null);*/
 	}
 }

@@ -243,9 +243,19 @@
                 android:layout_gravity="center_horizontal"
                 android:text="See On Map" 
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/button"
                  android:onClick="seeOnMap"
+                />
+            <Button
+                android:id="@+id/btnSentSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Sent Sms"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:onClick="sentSms"
                 />
             
         </LinearLayout>
