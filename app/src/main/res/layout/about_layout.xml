@@ -3,25 +3,25 @@
     android:id="@+id/scrollView1"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/background" >
+    android:background="@drawable/background">
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="15dp" >
+            android:padding="15dp">
 
             <TextView
                 android:id="@+id/header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                
+
                 android:text="About Doctor"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="#ffffff"
@@ -30,7 +30,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:paddingBottom="10dp" >
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvName"
@@ -38,24 +38,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Name "
-                    android:textStyle="bold"
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorNameView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                  android:paddingBottom="10dp">
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvQualification"
@@ -63,24 +63,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Qualification "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorQualificationView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:paddingBottom="10dp">
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvDesignation"
@@ -88,24 +88,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Designation "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorDesignationView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:paddingBottom="10dp">
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvExpertise"
@@ -113,24 +113,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Expertise "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="#E5E5E5"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorExpertiseView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                  android:paddingBottom="10dp">
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvChamber"
@@ -138,24 +138,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Chamber "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorChamberView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:paddingBottom="10dp" >
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvChamberAddress"
@@ -163,18 +163,18 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Chamber Location "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                   android:textStyle="bold"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorChamberLocationView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
@@ -188,24 +188,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Visiting Hours "
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorVisitingHourView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-               android:paddingBottom="10dp">
+                android:paddingBottom="10dp">
 
                 <TextView
                     android:id="@+id/tvOffDays"
@@ -213,18 +213,18 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Off Day "
-                    android:textStyle="bold"
+                    android:textColor="#E5E5E5"
                     android:textSize="15sp"
-                    android:textColor="#E5E5E5" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/doctorOffDayView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:text=""
                     android:textColor="#ffffff"
-                    android:textStyle="italic"
-                    android:text="" />
+                    android:textStyle="italic" />
             </LinearLayout>
 
             <Button
@@ -232,32 +232,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Appoinment" 
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button"
-                android:onClick="appointment"/>
-             <Button
+                android:onClick="appointment"
+                android:text="Appoinment" />
+
+            <Button
                 android:id="@+id/btnMap"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="See On Map" 
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button"
-                 android:onClick="seeOnMap"
-                />
+                android:onClick="seeOnMap"
+                android:text="See On Map" />
+
             <Button
                 android:id="@+id/btnSentSms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Sent Sms"
-                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button"
                 android:onClick="sentSms"
-                />
-            
+                android:text="Sent Sms" />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
